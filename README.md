@@ -1,4 +1,4 @@
-# 🤖 Research Agent - AI-Powered Web Search & Summarization
+#  Research Agent - AI-Powered Web Search & Summarization
 
 An intelligent research assistant that automatically searches the web and summarizes information using AI. Built with LangChain, Groq API, and Chainlit.
 
@@ -7,14 +7,14 @@ An intelligent research assistant that automatically searches the web and summar
 
 ---
 
-## 🌟 Features
+##  Features
 
-- 🔍 **Smart Web Search** - Automatically searches Google for current information
-- 🧠 **Intelligent Decision Making** - Decides when to search vs answer directly
-- 📝 **Auto Summarization** - Condenses search results into clear, concise answers
-- 💬 **Beautiful UI** - Modern chat interface with Chainlit
-- ⚡ **Fast & Free** - Powered by Groq's lightning-fast LLM API
-- 🎯 **Real-time Updates** - Shows what the agent is doing at each step
+- **Smart Web Search** - Automatically searches Google for current information
+- **Intelligent Decision Making** - Decides when to search vs answer directly
+- **Auto Summarization** - Condenses search results into clear, concise answers
+- **Beautiful UI** - Modern chat interface with Chainlit
+- **Fast & Free** - Powered by Groq's lightning-fast LLM API
+- **Real-time Updates** - Shows what the agent is doing at each step
 
 ---
 
@@ -126,25 +126,6 @@ Agent: SpaceX successfully launched three Falcon 9 rockets in November 2024...
 You: What is Python?
 Agent: 💭 Direct answer...
 Agent: Python is a high-level programming language...
-```
-
----
-
-## ⚙️ Configuration
-
-### Change AI Model
-
-Edit `app.py` or `main.py`:
-
-```python
-# Faster but less powerful
-llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0)
-
-# Balanced (default)
-llm = ChatGroq(model="llama-3.1-70b-versatile", temperature=0)
-
-# Most powerful
-llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
 ```
 
 ### Adjust Temperature
