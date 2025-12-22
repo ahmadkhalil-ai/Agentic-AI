@@ -132,7 +132,7 @@ Agent: Python is a high-level programming language...
 
 ```python
 llm = ChatGroq(
-    model="llama-3.1-70b-versatile",
+    model=".....",
     temperature=0.7,  # 0 = focused, 1 = creative
 )
 ```
