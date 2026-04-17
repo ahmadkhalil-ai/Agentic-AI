@@ -31,22 +31,18 @@ async def start():
     
     # Send welcome message with emoji and styling
     await cl.Message(
-        content="""# 🤖 Welcome to Research Agent!
+        content="""# Welcome to Research Agent!
         
 I'm your intelligent research assistant powered by AI and web search.
 
 ## What I can do:
-- 🔍 **Search the web** for current information
-- 📰 **Find latest news** and events
-- 💰 **Get stock prices** and market data
-- 🏎️ **Sports results** and scores
-- 📝 **Summarize** information clearly
-- 💭 **Answer** general knowledge questions
+-  **Search the web** 
+-  **Find latest news** 
+-  **Get stock prices** 
+-  **Sports results**
+-  **Summarize** 
+-  **Answer** 
 
-## How to use:
-Just type your question and I'll either:
-- Search the web if it's current information
-- Answer directly if I already know
 
 **Try asking:**
 - "Who won the last F1 race?"
@@ -54,7 +50,7 @@ Just type your question and I'll either:
 - "What's Amazon stock price today?"
 
 ---
-Ready to help! Ask me anything! 👇
+Ready to help! Ask me anything! 
         """
     ).send()
 
